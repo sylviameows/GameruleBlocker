@@ -1,0 +1,15 @@
+name: GameruleBlocker
+version: '1.0.0'
+main: io.github.sylviameows.gameruleblocker.Plugin
+api-version: '1.21'
+prefix: GameruleBlocker
+load: STARTUP
+authors: [ sylviameows ]
+description: blocks usage of the gamerule command and sends a message.
+
+commands:
+  gamerule:
+    usage: /gamerule
+    description: "The overriding command for gamerule."
+    permission: minecraft.command.gamerule
+    permission-message: "You do not have permission to use this command"

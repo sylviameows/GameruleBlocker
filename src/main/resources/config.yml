@@ -1,0 +1,2 @@
+# uses minimessage formatting: https://docs.advntr.dev/minimessage/format.html
+message: "<red>When setting a gamerule you should be using <u>/mv gamerule</u>. If you meant to use the vanilla gamerule command use <u>/minecraft:gamerule</u>"
