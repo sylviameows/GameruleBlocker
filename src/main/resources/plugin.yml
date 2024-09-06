@@ -1,11 +1,11 @@
 name: GameruleBlocker
-version: '1.0.0'
-main: io.github.sylviameows.gameruleblocker.Plugin
+version: $version
+main: io.github.sylviameows.gameruleblocker.GameruleBlocker
 api-version: '1.21'
 prefix: GameruleBlocker
 load: STARTUP
 authors: [ sylviameows ]
-description: blocks usage of the gamerule command and sends a message.
+description: blocks usage of the gamerule command and sends a message instead.
 
 commands:
   gamerule:

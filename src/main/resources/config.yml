@@ -1,2 +1,2 @@
-# uses minimessage formatting: https://docs.advntr.dev/minimessage/format.html
-message: "<red>When setting a gamerule you should be using <u>/mv gamerule</u>. If you meant to use the vanilla gamerule command use <u>/minecraft:gamerule</u>"
+# TIP: You can use hex codes with the following format: &#FFC0CB
+message: "&cWhen setting a gamerule you should be using &n/mv gamerule&r&c. If you meant to use the vanilla gamerule command use &n/minecraft:gamerule&r&c"
