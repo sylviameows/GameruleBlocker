@@ -4,7 +4,7 @@
 <details>
 <summary>Screenshots</summary>
 
-> ![img.png](img.png)
+> ![img.png](img.png) <break>
 > The default chat message when running /gamerule.
 </details>
 
