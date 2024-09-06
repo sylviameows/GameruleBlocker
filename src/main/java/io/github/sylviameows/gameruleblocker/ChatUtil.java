@@ -8,7 +8,7 @@ import java.util.regex.Pattern;
 public final class ChatUtil {
     static final char CHAR = '&';
 
-    public static String translateHex(String raw) {
+    private static String translateHex(String raw) {
         final Pattern hex = Pattern.compile(CHAR + "([A-Fa-f0-9]{6})");
         Matcher matcher = hex.matcher(raw);
         StringBuffer buffer = new StringBuffer(raw.length() + 4 * 8);
@@ -29,6 +29,6 @@ public final class ChatUtil {
     }
 
     public static String translate(String raw) {
-        return ChatColor.translateAlternateColorCodes(CHAR, raw);
+        return ChatColor.translateAlternateColorCodes(CHAR, translateHex(raw));
     }
 }
